@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+VAR1="GIRISH"
+VAR2="BDVT"
+VAR3="30"
+
+echo "$0"
+echo "MY NAME IS $VAR1"
+echo "I M FROM $VAR2"
+echo "MY AGE IS $VAR3" 
+
+if [ $1 -eq 5 ];
+then
+	echo "$1 is 5"
+fi
+

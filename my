@@ -1,0 +1,15 @@
+ #!/bin/bash
+ 
+ var1="GIRISH"
+ var2="BDVT"
+ 
+ echo " what is your name? "
+ 
+ echo " my name is $var1 "
+ 
+ echo " where are ypu from "
+ 
+ echo " i'm from $var2 "
+ 
+ 
+ 

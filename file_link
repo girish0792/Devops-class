@@ -1,0 +1,21 @@
+#!/bin/bash
+echo " enter the file to check "
+read filename
+if [ -L $filename ];
+then 
+	echo " entered $filename is soft link "
+elif [ -d $filename ];
+then
+	echo " eneterd $filename is dir "
+	ls -lrt $filename
+elif [ -r $filename ];
+then 
+	echo " enterd $filename is file "
+	cat $filename
+	echo " printing number of lines in file "
+	cat $filename | wc -l
+else
+	echo " file does not exit "
+fi
+
+

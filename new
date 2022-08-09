@@ -1,0 +1,9 @@
+#!/bin/bash
+VAR1=girish
+VAR2=BDVT
+VAR3=30
+
+echo " my name is $VAR1 "
+echo " I'm from $VAR2 "
+echo " My age is $VAR3 "
+

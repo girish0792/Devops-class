@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo " enter the number "
+read number
+echo " $num1 1 "
+echo " $num2 1 2 "
+echo " $num3 1 2 3 "
+echo " $num4 1 2 3 4 "
+

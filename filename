@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo " enter the filename "
+read filename
+{
+	ls -lrt "$filename"
+}
+
+
+
