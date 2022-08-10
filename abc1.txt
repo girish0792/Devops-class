@@ -1,3 +1,6 @@
 #commit 1
+<<<<<<< HEAD
 #commit 2
 
+=======
+>>>>>>> 9533ebb (1st line)
