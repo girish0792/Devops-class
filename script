@@ -15,3 +15,6 @@ then
 else
 	echo " $name not exist "
 fi
+
+#echo "non existing script"
+
