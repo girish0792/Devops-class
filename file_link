@@ -17,5 +17,6 @@ then
 else
 	echo " file does not exit "
 fi
+#echo "existing script"
 
 
