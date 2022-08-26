@@ -1,0 +1,14 @@
+pipeline 
+{
+    agent any
+    stages 
+    {
+        stage('continuos download')
+        {
+            steps
+            {
+                git 'https://github.com/pavanoltraining/JenkinsPipelineDemoProject.git'
+            }
+        }
+        }
+        }
