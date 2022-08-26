@@ -1,26 +1,25 @@
-pipeline
+pipeline 
 {
-agent any
-{
-    stage('build')
+    agent any
+    stages
     {
-        if (env.BRANCH_NAME == 'master') 
+        stage('Example Build') 
         {
-            echo 'I only execute on the master branch'
+            steps
+            {
+                echo 'Hello World'
+            }
         }
-        else 
+        stage('Example Deploy') 
         {
-            echo 'I execute elsewhere'
+            when 
+            {
+                branch 'production'
+            }
+            steps
+            {
+                echo 'Deploying'
+            }
         }
     }
-    stage('deploy')
-    {
-        
-    }
-    stage('test')
-    {
-    
-    }
-}
-
 }
